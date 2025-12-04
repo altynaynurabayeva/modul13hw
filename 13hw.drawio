@@ -1,0 +1,131 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.2">
+  <diagram name="Страница-1" id="17LLIbtQ-KprmYCp-1YY">
+    <mxGraphModel dx="28834" dy="24668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="50L71GakPri33YgroDSC-32" parent="1" style="rounded=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;align=center;" value="Idle&#xa;(Ожидание)" vertex="1">
+          <mxGeometry height="70" width="200" x="70" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-33" parent="1" style="rounded=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;align=center;" value="RoomSelected&#xa;(Номер выбран)" vertex="1">
+          <mxGeometry height="70" width="220" x="350" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-34" parent="1" style="rounded=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;align=center;" value="BookingConfirmed&#xa;(Бронирование подтверждено)" vertex="1">
+          <mxGeometry height="70" width="260" x="650" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-35" parent="1" style="rounded=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;align=center;fillColor=#d5f5d5;" value="Paid&#xa;(Оплачено)" vertex="1">
+          <mxGeometry height="70" width="220" x="650" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-36" parent="1" style="rounded=1;whiteSpace=wrap;strokeWidth=2;fontSize=16;align=center;fillColor=#f5d5d5;" value="BookingCancelled&#xa;(Отменено)" vertex="1">
+          <mxGeometry height="70" width="240" x="350" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-37" edge="1" parent="1" source="50L71GakPri33YgroDSC-32" style="endArrow=block;strokeWidth=2;fontSize=14;rounded=0;" target="50L71GakPri33YgroDSC-33" value="Выбор номера">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-38" edge="1" parent="1" source="50L71GakPri33YgroDSC-33" style="endArrow=block;strokeWidth=2;fontSize=14;rounded=0;" target="50L71GakPri33YgroDSC-34" value="Подтвердить бронирование">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-39" edge="1" parent="1" source="50L71GakPri33YgroDSC-34" style="endArrow=block;strokeWidth=2;fontSize=14;rounded=0;" target="50L71GakPri33YgroDSC-35" value="Оплатить">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-40" edge="1" parent="1" source="50L71GakPri33YgroDSC-33" style="dashed=1;endArrow=open;strokeWidth=2;fontSize=14;rounded=0;" target="50L71GakPri33YgroDSC-36" value="Отмена">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-41" edge="1" parent="1" source="50L71GakPri33YgroDSC-34" style="dashed=1;endArrow=open;strokeWidth=2;fontSize=14;rounded=0;" target="50L71GakPri33YgroDSC-36" value="Отмена">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-42" parent="1" style="rounded=1;strokeWidth=2;fontSize=16;align=center;whiteSpace=wrap;" value="Создана" vertex="1">
+          <mxGeometry height="70" width="200" x="1170" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-43" parent="1" style="rounded=1;strokeWidth=2;fontSize=16;align=center;whiteSpace=wrap;" value="Ожидает оплаты" vertex="1">
+          <mxGeometry height="70" width="220" x="1450" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-44" parent="1" style="rounded=1;strokeWidth=2;fontSize=16;align=center;whiteSpace=wrap;fillColor=#d5f5d5;" value="Оплачена" vertex="1">
+          <mxGeometry height="70" width="200" x="1750" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-45" parent="1" style="rounded=1;strokeWidth=2;fontSize=16;align=center;whiteSpace=wrap;fillColor=#ccf2ff;" value="Подтверждена" vertex="1">
+          <mxGeometry height="70" width="220" x="1750" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-46" parent="1" style="rounded=1;strokeWidth=2;fontSize=16;align=center;whiteSpace=wrap;fillColor=#f5d5d5;" value="Отменена (финальное)" vertex="1">
+          <mxGeometry height="70" width="240" x="1450" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-47" edge="1" parent="1" source="50L71GakPri33YgroDSC-42" style="endArrow=block;strokeWidth=2;fontSize=14;rounded=0;" target="50L71GakPri33YgroDSC-43" value="Отправлена клиенту">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-48" edge="1" parent="1" source="50L71GakPri33YgroDSC-43" style="endArrow=block;strokeWidth=2;fontSize=14;rounded=0;" target="50L71GakPri33YgroDSC-44" value="Клиент оплатил">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-49" edge="1" parent="1" source="50L71GakPri33YgroDSC-43" style="dashed=1;endArrow=open;strokeWidth=2;fontSize=14;rounded=0;" target="50L71GakPri33YgroDSC-46" value="Не оплатил вовремя">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-50" edge="1" parent="1" source="50L71GakPri33YgroDSC-44" style="endArrow=block;strokeWidth=2;fontSize=14;rounded=0;" target="50L71GakPri33YgroDSC-45" value="Проверка бронирования">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-51" parent="1" style="shape=umlActor;fontSize=16;" value="Студент" vertex="1">
+          <mxGeometry height="130" width="70" x="560" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-52" parent="1" style="shape=umlActor;fontSize=16;" value="Преподаватель" vertex="1">
+          <mxGeometry height="150" width="90" x="560" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-53" parent="1" style="shape=umlActor;fontSize=16;" value="Администратор" vertex="1">
+          <mxGeometry height="150" width="90" x="560" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-54" edge="1" parent="1" source="50L71GakPri33YgroDSC-52" style="endArrow=block;endFill=0;rounded=0;" target="50L71GakPri33YgroDSC-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-55" edge="1" parent="1" source="50L71GakPri33YgroDSC-53" style="endArrow=block;endFill=0;rounded=0;" target="50L71GakPri33YgroDSC-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-56" parent="1" style="swimlane;fontSize=18;" value="Система управления онлайн-курсами" vertex="1">
+          <mxGeometry height="800" width="1000" x="730" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-57" parent="50L71GakPri33YgroDSC-56" style="ellipse;fontSize=16;whiteSpace=wrap;" value="Регистрация и авторизация" vertex="1">
+          <mxGeometry height="70" width="260" x="120" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-58" parent="50L71GakPri33YgroDSC-56" style="ellipse;fontSize=16;whiteSpace=wrap;" value="Просмотр курсов" vertex="1">
+          <mxGeometry height="70" width="240" x="120" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-59" parent="50L71GakPri33YgroDSC-56" style="ellipse;fontSize=16;whiteSpace=wrap;" value="Запись на курс" vertex="1">
+          <mxGeometry height="70" width="220" x="120" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-60" parent="50L71GakPri33YgroDSC-56" style="ellipse;fontSize=16;whiteSpace=wrap;" value="Прохождение тестов" vertex="1">
+          <mxGeometry height="70" width="220" x="120" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-61" parent="50L71GakPri33YgroDSC-56" style="ellipse;fontSize=16;" value="Создание и редактирование курсов" vertex="1">
+          <mxGeometry height="70" width="300" x="480" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-62" parent="50L71GakPri33YgroDSC-56" style="ellipse;fontSize=16;" value="Модерация отзывов" vertex="1">
+          <mxGeometry height="70" width="260" x="480" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-63" parent="50L71GakPri33YgroDSC-56" style="ellipse;fontSize=16;" value="Управление учетными записями" vertex="1">
+          <mxGeometry height="70" width="300" x="480" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-64" parent="50L71GakPri33YgroDSC-56" style="ellipse;fontSize=16;" value="Просмотр аналитики" vertex="1">
+          <mxGeometry height="70" width="260" x="480" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-65" edge="1" parent="50L71GakPri33YgroDSC-56" source="50L71GakPri33YgroDSC-57" style="dashed=1;endArrow=open;fontSize=14;rounded=0;" target="50L71GakPri33YgroDSC-58" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-66" edge="1" parent="50L71GakPri33YgroDSC-56" source="50L71GakPri33YgroDSC-60" style="dashed=1;endArrow=open;fontSize=14;rounded=0;" target="50L71GakPri33YgroDSC-59" value="&lt;&lt;extend&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-67" edge="1" parent="1" source="50L71GakPri33YgroDSC-51" style="rounded=0;" target="50L71GakPri33YgroDSC-58" />
+        <mxCell id="50L71GakPri33YgroDSC-68" edge="1" parent="1" source="50L71GakPri33YgroDSC-51" style="rounded=0;" target="50L71GakPri33YgroDSC-59" />
+        <mxCell id="50L71GakPri33YgroDSC-69" edge="1" parent="1" source="50L71GakPri33YgroDSC-51" style="rounded=0;" target="50L71GakPri33YgroDSC-60" />
+        <mxCell id="50L71GakPri33YgroDSC-70" edge="1" parent="1" source="50L71GakPri33YgroDSC-52" style="rounded=0;" target="50L71GakPri33YgroDSC-61" />
+        <mxCell id="50L71GakPri33YgroDSC-71" edge="1" parent="1" source="50L71GakPri33YgroDSC-52" style="rounded=0;" target="50L71GakPri33YgroDSC-62" />
+        <mxCell id="50L71GakPri33YgroDSC-72" edge="1" parent="1" source="50L71GakPri33YgroDSC-53" style="rounded=0;" target="50L71GakPri33YgroDSC-63" />
+        <mxCell id="50L71GakPri33YgroDSC-73" edge="1" parent="1" source="50L71GakPri33YgroDSC-53" style="rounded=0;" target="50L71GakPri33YgroDSC-64" />
+        <mxCell id="50L71GakPri33YgroDSC-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 48px;&quot;&gt;1&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-10" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-76" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 48px;&quot;&gt;2&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1120" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="50L71GakPri33YgroDSC-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 48px;&quot;&gt;3&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="520" y="550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
